@@ -1,3 +1,4 @@
+import os
 import dash
 import dash_core_components as dcc
 import dash_html_components as html
@@ -19,6 +20,7 @@ app = dash.Dash(__name__, assets_folder='assets',
 app.config['suppress_callback_exceptions'] = True
 
 server = app.server
+
 app.title = 'Dash app with pure Altair HTML'
 
 # Reading Vancouver City Population from 2001 to 2018
