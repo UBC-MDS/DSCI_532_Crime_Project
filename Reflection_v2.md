@@ -1,7 +1,7 @@
 # Milestone 3 - Reflection
 
 
-## Compliments of our App
+## Compliments of the App
 Many of our batchmates appreciated the effort we put in developing this simple app that helps residents & visitors of Vancouver to visually analyze crime data. Without any introduction on how to use the app, many of our peers were able to gain insights on what we desired them to have.
 
 ## Summary of Peer Review Feedback
