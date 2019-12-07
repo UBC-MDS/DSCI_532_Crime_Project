@@ -1,3 +1,5 @@
+# Milestone 2
+
 ## Implementation
 We have built an interactive app that has the capability of displaying the crime information of Vancouver neighbourhoods, different crimes and years at a glance. This app answers questions regarding general crime trends in Vancouver and creates awareness about crime rates per neighborhood and the necessity for drastic intervention. 
 
@@ -22,3 +24,38 @@ We plan to improve the app by making the dropdowns and slider to be by the side 
 
 ## TA Feedback
 We have modified our team contract to include the specific role of each team member and modified the app description accordingly to include multi-select option which we implemented.
+
+
+# Milestone 3
+
+
+## Summary of Peer Review Feedback
+We received feedbacks from peers who are not members of our group and they reviewed our interactive dashboard. The key points are summarized below:
+
+We need to communicate whether the crime counts in the geo map are normalized by population
+Change months from digits to actual month names and change year to a nominal or ordinal data type in crime rate plot.
+Change hour to actual time of day instead of a number.
+Use line and bar chart together can keep consistency
+Add description/titles on top of the region and type of crime drop-downs
+Add description for Crime Rate graph (mention that it is normalized for population)
+Provide users some information about which dropdown controls which graphs so that users know which buttons control which plots.
+In the dropdown box, provide the selection 'all' so that users can add all districts back using only one click.
+
+## Action Items
+- Change months to actual month names
+- Change year to a nominal or ordinal data type in crime rate plot.
+- Titles for the filters of "Area" and "Type of crimes"
+- Add description for Crime Rate graph (mention that it is normalized for population)
+- Another improvement is that in the dropdown box, provide the selection 'all' so that users can add all districts back using only one click.
+
+## Completed
+Changed months from digits to names of months
+Changed year to ordinal type in crime rate plot
+Cleaned up code to follow tidyverse standard and PEP 8
+Added description of dashboard
+Titles for the filters of "Area" and "Type of crimes"
+
+## Ongoing Items
+Create Vancouver map in ggplot
+Titles for the filters of "Area" and "Type of crimes" (completed in dev branch)
+
