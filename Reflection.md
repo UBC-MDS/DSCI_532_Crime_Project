@@ -32,14 +32,19 @@ We have modified our team contract to include the specific role of each team mem
 ## Summary of Peer Review Feedback
 We received feedbacks from peers who are not members of our group and they reviewed our interactive dashboard. The key points are summarized below:
 
-We need to communicate whether the crime counts in the geo map are normalized by population
-Change months from digits to actual month names and change year to a nominal or ordinal data type in crime rate plot.
-Change hour to actual time of day instead of a number.
-Use line and bar chart together can keep consistency
-Add description/titles on top of the region and type of crime drop-downs
-Add description for Crime Rate graph (mention that it is normalized for population)
-Provide users some information about which dropdown controls which graphs so that users know which buttons control which plots.
-In the dropdown box, provide the selection 'all' so that users can add all districts back using only one click.
+- We need to communicate whether the crime counts in the geo map are normalized by population
+- Change months from digits to actual month names and change year to a nominal or ordinal data type in crime rate plot.
+- Change hour to actual time of day instead of a number.
+- Use line and bar chart together can keep consistency
+- Add description/titles on top of the region and type of crime drop-downs
+- Add description for Crime Rate graph (mention that it is normalized for population)
+- Provide users some information about which dropdown controls which graphs so that users know which buttons control which plots.
+- In the dropdown box, provide the selection 'all' so that users can add all districts back using only one click.
+
+## TA Feedbacks from Milestone 2
+- Add a description of the app at the beginning.
+- Fix the range of the color scale with changing neighborhoods and years, as it gives the user the ability to compare between different scenarios.
+- Include or cite the data source.
 
 ## Action Items
 - Change months to actual month names
@@ -47,6 +52,7 @@ In the dropdown box, provide the selection 'all' so that users can add all distr
 - Titles for the filters of "Area" and "Type of crimes"
 - Add description for Crime Rate graph (mention that it is normalized for population)
 - Another improvement is that in the dropdown box, provide the selection 'all' so that users can add all districts back using only one click.
+- Fix the range of the color scale with changing neighborhoods and years, as it gives the user the ability to compare between different scenarios.
 
 ## Completed
 Changed months from digits to names of months
@@ -56,6 +62,12 @@ Added description of dashboard
 Titles for the filters of "Area" and "Type of crimes"
 
 ## Ongoing Items
-Create Vancouver map in ggplot
-Titles for the filters of "Area" and "Type of crimes" (completed in dev branch)
+- Create Vancouver map in ggplot. The process of creating the map in ggplot is taking longer than anticipated. We will continue working on it.
+- Titles for the filters of "Area" and "Type of crimes" (completed in dev branch)
+- Cite the data source
 
+## Pending
+- Fix the range of the color scale with changing neighborhoods and years, as it gives the user the ability to compare between different scenarios
+
+## Conclusion
+As a matter of time constraint and advanced technical complexity of some requirements and feedbacks, we are unable to complete the implementation of all the reviews. However, we will attempt to review some of them on case by case basis and as time permits. 
