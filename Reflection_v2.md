@@ -8,13 +8,14 @@ Many of our batchmates appreciated the effort we put in developing this simple a
 We received feedback from peers who are not members of our group and they reviewed our interactive dashboard. The key points are summarized below:
 
 Issues we improved upon in the new version of the App:  
-- Change months from digits to actual month names.
-- Change year to a nominal data type in crime rate plot.
-- Add description/titles on top of drop-downs to provide users some information about which dropdown controls which graphs.
-- We need to communicate whether the crime counts in the geo map are normalized by population
-- Add a description for Crime Rate graph (mention that it is normalized for population)
+- Changed months from digits to actual month names.
+- Changed year to a nominal data type in crime rate plot.
+- Added description/titles on top of drop-downs to provide users some information about which dropdown controls what part of the app.
+- Communicated whether the crime counts in the geo map are normalized by population.
+- Added a description for Crime Rate graph (mentioned that it is normalized for population).  
 
-* In the newly deployed version of the app we have cleaned up code to follow tidyverse standard and PEP 8 style formatting*
+
+** In the newly deployed version of the app we have cleaned up code to follow tidyverse standard and PEP 8 style formatting **
 
 Issues not addressed:  
 - In the dropdown box, provide the selection 'all' so that users can add all districts back using only one click.  
